@@ -102,3 +102,10 @@ footer ul.list li {
 footer .contact {
     font-size: 0.9rem;
 }
+
+
+@media (max-width: 575.98px) {
+    #hero .top-hero {
+        min-height: 270px;
+    }
+}
