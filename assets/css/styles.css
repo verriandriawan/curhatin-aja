@@ -30,7 +30,6 @@ a.decoration-none {
     position: relative;
 }
 
-
 #main {
     min-height: 500px;
 }
@@ -38,6 +37,18 @@ a.decoration-none {
     max-width: 150px;
     cursor: pointer;
 }
+
+#login input {
+    border: 1px solid #dbeef3;
+}
+#login input::placeholder {
+    color: #0e7490;
+    font-size: 0.9rem;
+}
+
+
+
+
 
 .btn-cyan {
     background: #06b6d4;
@@ -56,6 +67,8 @@ a.decoration-none {
     background: #73b16f;
 }
 
+
+
 .text-cyan {
     color: #0e7490;
 }
@@ -73,6 +86,9 @@ img { width: 100%; }
 .text-uppercase {
     text-transform: uppercase;
 }
+
+
+
 
 footer {
     min-height: 200px;
