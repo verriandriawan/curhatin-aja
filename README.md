@@ -2,10 +2,14 @@
 
 Just an exploration
 
-**Preview**
+**Demo**
+---
+[Demo](https://verriandriawan.github.io/consul)
+
+**Screenshoot**
 ---
 
-<img src="assets/img/screenshoot.png" />
+<img src="src/public/assets/img/screenshoot.png" />
 
 
 #### Resources 
