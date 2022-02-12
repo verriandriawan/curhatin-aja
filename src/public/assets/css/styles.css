@@ -1,0 +1,127 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #0e7490;
+}
+nav.top-nav {
+    z-index: 1;
+    position: relative;
+    color: #0e7490;
+}
+
+nav.top-nav a {
+    text-decoration: none;
+    color: #0e7490;
+}
+
+nav.top-nav .btn {
+    border:1px solid #0891b2;
+}
+
+a.decoration-none {
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero .top-hero {
+    min-height: 450px; 
+    position: relative;
+}
+
+#main {
+    min-height: 500px;
+}
+.layanan-item {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+#login input {
+    border: 1px solid #dbeef3;
+}
+#login input::placeholder {
+    color: #0e7490;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+.btn-cyan {
+    background: #06b6d4;
+    color: #fff;
+}
+.btn-cyan:hover {
+    background: #0199b3;
+    color: #fff;
+}
+.btn-green {
+    background: #9dd49a;
+    color: #fff;
+}
+.btn-green:hover {
+    color: #fff;
+    background: #73b16f;
+}
+
+
+
+.text-cyan {
+    color: #0e7490;
+}
+.text-green {
+    color: #9dd49a;
+}
+a.text-cyan:hover {
+    color: #0e7490;
+}
+img { width: 100%; }
+
+.text-xs {
+    font-size: .8rem;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+footer {
+    min-height: 200px;
+    background: #0e7490;
+}
+
+footer ul.list {
+    text-decoration: none;
+    padding:0;
+    margin: 0;
+}
+
+footer ul.list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul.list a:hover {
+    color: #7fc2df;
+}
+
+footer ul.list li {
+    font-size: 0.9rem;
+    padding: 3px 0;
+}
+
+footer .contact {
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 575.98px) {
+    #hero .top-hero {
+        min-height: 270px;
+    }
+}
