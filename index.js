@@ -19,5 +19,10 @@ app.get('/', Router('index', {title: 'Consul'}))
 app.get('/login', Router('login', {title: 'Login'}))
 app.get('/register', Router('register', {title: 'Register'}))
 app.get('/reset', Router('reset', {title: 'Reset Password'}))
+app.get('/single-page', Router('single_page', {title: 'Single Page'}))
 
-app.listen(3000)
+app.get('/dashboard', Router('dashboard/index', {title: "Dashboard"}))
+
+app.listen(3000, () => {
+    console.log("Listening on port 3000") 
+})

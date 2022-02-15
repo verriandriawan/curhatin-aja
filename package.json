@@ -3,11 +3,12 @@
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "ncp": "^2.0.0",
+    "nodemon": "^2.0.15",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "app:dev": "node index.js",
+    "dev": "nodemon index.js --watch .",
     "build:html": "node build.js"
   }
 }

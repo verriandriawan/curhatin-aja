@@ -46,6 +46,10 @@ a.decoration-none {
     font-size: 0.9rem;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 
 
 
@@ -67,13 +71,21 @@ a.decoration-none {
     background: #73b16f;
 }
 
-
+.bg-cyan {
+    color: #0e7490!important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+}
 
 .text-cyan {
-    color: #0e7490;
+    color: #0e7490!important;
 }
 .text-green {
-    color: #9dd49a;
+    color: #9dd49a!important;
 }
 a.text-cyan:hover {
     color: #0e7490;
@@ -87,7 +99,9 @@ img { width: 100%; }
     text-transform: uppercase;
 }
 
-
+.bg-dark-cyan {
+    background: #024658;
+}
 
 
 footer {
